@@ -17,8 +17,10 @@ W. Avy wants to expand on the surf shop location weather data. Specifically, he 
 
 ## Results - Key Differences in Temperature
 
-Figures 1 and 2 display the summary statistics for Oahu temperatures in June and December respectively:
+Figures 1 and 2 display the summary statistics for Oahu temperatures in June and December:
+
 Figure 1: [Oahu Temperatures Summary Statistics - June](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20June.png)
+
 Figure 2: [Oahu Temperatures Summary Statistics - December](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20Dec.png)
 
 The average temperature for each month is higher in June (75) vs. December (71).
