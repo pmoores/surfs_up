@@ -10,22 +10,22 @@ W. Avy wants to expand on the surf shop location weather data. Specifically, he 
 
 - Python 3.7.10
 
-- SQL Lite
+- SQLite 3.36.0
+
+- SQLAlchemy 1.4.7
 
 
 ## Results - Key Differences in Temperature
 
 Figures 1 and 2 display the summary statistics for Oahu temperatures in June and December respectively:
-
 Figure 1: [Oahu Temperatures Summary Statistics - June](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20June.png)
-
 Figure 2: [Oahu Temperatures Summary Statistics - December](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20Dec.png)
 
-1. The average temperature for each month is higher in June (75) vs. December (71).
+The average temperature for each month is higher in June (75) vs. December (71).
 
-2. The temperature ranges for each month (June: 64 to 85; December: 56 to 83) show that December reaches lower temperatures, but both months have similar highs. 
+The temperature ranges for each month (June: 64 to 85; December: 56 to 83) show that December reaches lower temperatures, but both months have similar highs. 
 
-3. The standard deviations for both months are similar (June: 3.26 vs. Dec: 3.75), meaning the distribution of data is similar within each range.
+The standard deviations for both months are similar (June: 3.26 vs. Dec: 3.75), meaning the distribution of data is similar within each range.
 
 
 ## Summary
