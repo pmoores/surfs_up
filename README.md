@@ -8,11 +8,15 @@ W. Avy wants to expand on the surf shop location weather data. Specifically, he 
 
 ### Three Key Differences in Weather Between June and December in Oahu
 
-Figure 1: [Oahu Temperatures Summary Stats - June](https://github.com/pmoores/Pewlett_Hackard_Analysis/tree/main/Queries/Employee_Database_challenge.sql)
+Figures 1 and 2 display the summary statistics for Oahu temperatures in June and December respectively:
+Figure 1: [Oahu Temperatures Summary Statistics - June](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20June.png)
+Figure 2: [Oahu Temperatures Summary Statistics - Dec](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20Dec.png)
 
-- The total number of retiring employees is 90,398 (Figure 1: [Count of Employees About to Retire](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/Count%20of%20Employees%20About%20to%20Retire.png)).
+1. The average temperature for each month is higher in June (75) vs. December (71).
 
-- Senior Engineers (n=29,414) and Senior Staff (n=28,254) job titles will be most impacted by these retirements, while Managers (n=2) are least impacted (Figure 2: [Count of Employees About to Retire by Title](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/Count%20of%20Employees%20About%20to%20Retire%20by%20Title.png)).
+2. . The temperature ranges for each month are relatively similar (June: 64 to 85; December: 56 to 83). December reaches lower temperatures, but both months have similar highs. 
+
+3. The standard deviations are also similar (June: 3.26 vs. Dec: 3.75), meaning the distribution of data is similar for both months. Temperatures fall similarly within each range.
 
 
 ### Employees Eligible to Participate in Mentorship Program
