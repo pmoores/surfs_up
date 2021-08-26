@@ -1,54 +1,52 @@
 # Module 9 Challenge - Surfs Up!
 
 ## Overview of Surfs Up!
-W. Avy wants to expand on the surf shop location weather data. Specifically, he wants to see the temperature data for Oahu in Jun and December in order to determine if the surf-and-ice-cream shop will be a sustainable year-round business.
+W. Avy wants to expand on the surf shop location weather data. Specifically, he wants to see the temperature data for Oahu in June and December in order to determine if the surf-and-ice-cream shop will be a sustainable year-round business.
 
 
-## Results
+## Analysis Tools
 
-### Three Key Differences in Weather Between June and December in Oahu
+- Jupiter Notebook 6.3.0
+
+- Python 3.7.10
+
+- SQL Lite
+
+
+## Results - Key Differences in Temperature
 
 Figures 1 and 2 display the summary statistics for Oahu temperatures in June and December respectively:
+
 Figure 1: [Oahu Temperatures Summary Statistics - June](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20June.png)
-Figure 2: [Oahu Temperatures Summary Statistics - Dec](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20Dec.png)
+
+Figure 2: [Oahu Temperatures Summary Statistics - December](https://github.com/pmoores/surfs_up/blob/main/Resources/Oahu%20Temperatures%20Summary%20Stats%20-%20Dec.png)
 
 1. The average temperature for each month is higher in June (75) vs. December (71).
 
-2. . The temperature ranges for each month are relatively similar (June: 64 to 85; December: 56 to 83). December reaches lower temperatures, but both months have similar highs. 
+2. The temperature ranges for each month (June: 64 to 85; December: 56 to 83) show that December reaches lower temperatures, but both months have similar highs. 
 
-3. The standard deviations are also similar (June: 3.26 vs. Dec: 3.75), meaning the distribution of data is similar for both months. Temperatures fall similarly within each range.
-
-
-### Employees Eligible to Participate in Mentorship Program
-
-- There are 1549 employees eligible for a mentorship program (Figure 3: [Count of Employees Eligible for Mentorship Prog](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/Count%20of%20Eligible%20for%20Mentorship%20Prog.png)).
-
-- The Senior Staff job title category has the most employees eligible for a mentorship program (n=418), followed by Engineer (n=387), Staff (n=306), Senior Engineer (n=302), Technique Leader (n=77) and Assistant Engineer (n=59) (Figure 4: [Count of Employees Eligible for Mentorship by Title](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/Mentorship%20Eligibility%20by%20Title.png)).
+3. The standard deviations for both months are similar (June: 3.26 vs. Dec: 3.75), meaning the distribution of data is similar within each range.
 
 
 ## Summary
 
-### Questions
+The results of the temperature analysis for Oahu in June and December show that, in terms of temperature, both months are ideal for a surf-and-ice-cream shop: 
 
-#### Q1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-Answer: 90,398
+ - The average temperatures are similar and ideal for outdoor beach activities
 
-#### Q2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-Answer: No. The ratio of mentors to new employees if everyone retired at this moment would be approximately 1:58. This is too heavy of a load for each mentor. 
+-  The temperatures for both months have similar distributions so the 'everyday temperature' works for outdoor beach activities
 
-### Suggested Additional Queries
+Two additional queries can be performed to gather more weather data June and December:
 
- - Suggestion 1: Retiring Employees by Department - Use this to determine which departments will be impacted the most/least by the upcoming "silver tsunami."
+1. Gather summary statistics for precipitation data (mean, range, std dev)
 
- - Suggestion 2: Retiring Employees by Specific Year of Retirement - Narrow the range of retirement eligibility to individual years (1952, 1953, 1954, 1955) to determine which specific years will be impacted the most/least by the upcoming "silver tsunami."
+2. Gather summary statistics from 2 other months that are spread six months apart (e.g. January and July) and compare these to the June and December statistics for an even more accurate annual weather picture of Oahu.
+
+
 
 ## Attachments
-- [Employee_Database_challenge.sql](https://github.com/pmoores/Pewlett_Hackard_Analysis/tree/main/Queries/Employee_Database_challenge.sql)
 
-- [retirement_titles.csv](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/retirement_titles.csv)
+- [SurfsUp_Challenge.ipynb](https://github.com/pmoores/surfs_up/blob/main/SurfsUp_Challenge.ipynb)
 
-- [unique_titles.csv](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/unique_titles.csv)
+- [hawaii.sqlite](https://github.com/pmoores/surfs_up/blob/main/hawaii.sqlite)
 
-- [retiring_titles.csv](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/retiring_titles.csv)
-
-- [mentorship_eligibility.csv](https://github.com/pmoores/Pewlett_Hackard_Analysis/blob/main/Data/mentorship_eligibility.csv)
